@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Github Actions on 洛初 的 档案馆</title><link>https://blog.luochu.cc/tags/github-actions/</link><description>Recent content from 洛初 的 档案馆</description><generator>Hugo</generator><language>zh-CN</language><managingEditor>contact@luochu.cc (洛初)</managingEditor><webMaster>contact@luochu.cc (洛初)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Tue, 24 Jun 2025 01:53:35 +0800</lastBuildDate><atom:link href="https://blog.luochu.cc/tags/github-actions/index.xml" rel="self" type="application/rss+xml"/><item><title>Git子模块管理主题，Action构建报错找不到主题</title><link>https://blog.luochu.cc/post/trouble/hugo-theme-submodule-disappear/</link><pubDate>Tue, 24 Jun 2025 01:53:35 +0800</pubDate><author>contact@luochu.cc (洛初)</author><guid>https://blog.luochu.cc/post/trouble/hugo-theme-submodule-disappear/</guid><description>
+<![CDATA[<h1>Git子模块管理主题，Action构建报错找不到主题</h1><p>作者：洛初（contact@luochu.cc）</p>
+        
+          <p>TL;DR 太长不看： <a href="/post/trouble/hugo-theme-submodule-disappear/#%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88">一键跳转到解决方案</a></p>
+<h2 id="问题回顾">
+<a class="header-anchor" href="#%e9%97%ae%e9%a2%98%e5%9b%9e%e9%a1%be"></a>
+问题回顾
+</h2><p>今天在从Hugo Module切换到Git子模块管理主题时，遇到了一个问题<br>
+在GitHub Action中构建时，报错：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">Run</span> <span class="n">hugo</span> <span class="o">--</span><span class="n">minify</span>
+</span></span><span class="line"><span class="cl"><span class="n">Total</span> <span class="ow">in</span> <span class="mi">2</span> <span class="n">ms</span>
+</span></span><span class="line"><span class="cl"><span class="n">Error</span><span class="p">:</span> <span class="n">failed</span> <span class="n">to</span> <span class="nb">load</span> <span class="n">modules</span><span class="p">:</span> <span class="n">module</span> <span class="s2">&#34;reimu&#34;</span> <span class="ow">not</span> <span class="n">found</span> <span class="ow">in</span> <span class="s2">&#34;/home/runner/work/Blog/Blog/themes/reimu&#34;</span><span class="p">;</span> <span class="n">either</span> <span class="n">add</span> <span class="n">it</span> <span class="n">as</span> <span class="n">a</span> <span class="n">Hugo</span> <span class="n">Module</span> <span class="ow">or</span> <span class="n">store</span> <span class="n">it</span> <span class="ow">in</span> <span class="s2">&#34;/home/runner/work/Blog/Blog/themes&#34;</span><span class="o">.</span><span class="p">:</span> <span class="n">module</span> <span class="n">does</span> <span class="ow">not</span> <span class="n">exist</span>
+</span></span><span class="line"><span class="cl"><span class="n">Error</span><span class="p">:</span> <span class="n">Process</span> <span class="n">completed</span> <span class="n">with</span> <span class="n">exit</span> <span class="n">code</span> <span class="mf">1.</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>检查了构建action，确实存在拉取子模块的内容：</p>
+        
+        <hr><p>本文2025-06-24首发于<a href='https://blog.luochu.cc/'>洛初 的 档案馆</a>，最后修改于2025-06-24</p><p>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</p>]]></description></item></channel></rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Github on 洛初 的 档案馆</title><link>https://blog.luochu.cc/tags/github/</link><description>Recent content from 洛初 的 档案馆</description><generator>Hugo</generator><language>zh-CN</language><managingEditor>contact@luochu.cc (洛初)</managingEditor><webMaster>contact@luochu.cc (洛初)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Tue, 06 Jan 2026 03:18:45 +0000</lastBuildDate><atom:link href="https://blog.luochu.cc/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>Github CLI在WSL中证书验证失败的问题</title><link>https://blog.luochu.cc/post/trouble/github-cli-wsl-cert-verify-fail/</link><pubDate>Tue, 06 Jan 2026 03:18:03 +0000</pubDate><author>contact@luochu.cc (洛初)</author><guid>https://blog.luochu.cc/post/trouble/github-cli-wsl-cert-verify-fail/</guid><description>
+<![CDATA[<h1>Github CLI在WSL中证书验证失败的问题</h1><p>作者：洛初（contact@luochu.cc）</p>
+        
+          <h2 id="问题描述">
+<a class="header-anchor" href="#%e9%97%ae%e9%a2%98%e6%8f%8f%e8%bf%b0"></a>
+问题描述
+</h2><p>在 WSL 中使用 Github CLI 时，不论哪种登陆方式都登陆不了，报错，类似</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">error validating token: Get <span class="s2">&#34;https://api.github.com/&#34;</span>: tls: failed to verify certificate: x509: certificate signed by unknown authority
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="排查过程">
+<a class="header-anchor" href="#%e6%8e%92%e6%9f%a5%e8%bf%87%e7%a8%8b"></a>
+排查过程
+</h2><p>搜索对应报错，发现是证书问题</p>
+<p>排查发现，Windows 端与 Github 的通信被 <a href="https://www.dogfight360.com/blog/18682/">Steamcommunity 302</a> 代理了<br>
+使用的证书是 <code>steamcommunity.crt</code>，而这个证书在 WSL 里不存在，所以不能过 SSL 验证</p>
+        
+        <hr><p>本文2026-01-06首发于<a href='https://blog.luochu.cc/'>洛初 的 档案馆</a>，最后修改于2026-01-06</p><p>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</p>]]></description><category>疑难杂症合集</category></item></channel></rss>

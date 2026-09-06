@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>存档 on 洛初 的 档案馆</title><link>https://blog.luochu.cc/tags/%E5%AD%98%E6%A1%A3/</link><description>Recent content from 洛初 的 档案馆</description><generator>Hugo</generator><language>zh-CN</language><managingEditor>contact@luochu.cc (洛初)</managingEditor><webMaster>contact@luochu.cc (洛初)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Sun, 01 Mar 2026 05:56:07 +0000</lastBuildDate><atom:link href="https://blog.luochu.cc/tags/%E5%AD%98%E6%A1%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>Chill With You 存档解析: (1)窗外景色及环境声音数据</title><link>https://blog.luochu.cc/post/guide/chill-with-you-save/01-scenery-and-ambience/</link><pubDate>Sun, 04 Jan 2026 03:11:57 +0000</pubDate><author>contact@luochu.cc (洛初)</author><guid>https://blog.luochu.cc/post/guide/chill-with-you-save/01-scenery-and-ambience/</guid><description>
+<![CDATA[<h1>Chill With You 存档解析: (1)窗外景色及环境声音数据</h1><p>作者：洛初（contact@luochu.cc）</p>
+        
+          <p><img src="https://picbed.luochu.cc/file/webupload/ZWoo69W6.png" alt="Chill With You" title="Chill With You"></p>
+<p>这是《Chill With You存档解析》系列文章的第1篇: 窗外景色及环境声音数据。</p>
+<p>这一篇的内容是详细解析 <code>-39941661.es3</code> 的存档内容、格式以及ID与游戏内的关联。</p>
+        
+        <hr><p>本文2026-01-04首发于<a href='https://blog.luochu.cc/'>洛初 的 档案馆</a>，最后修改于2026-03-01</p><p>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</p>]]></description><category>Chill With You 存档解析</category></item><item><title>Chill With You 存档解析: (0)总览</title><link>https://blog.luochu.cc/post/guide/chill-with-you-save/00-summary/</link><pubDate>Sun, 28 Dec 2025 17:40:46 +0800</pubDate><author>contact@luochu.cc (洛初)</author><guid>https://blog.luochu.cc/post/guide/chill-with-you-save/00-summary/</guid><description>
+<![CDATA[<h1>Chill With You 存档解析: (0)总览</h1><p>作者：洛初（contact@luochu.cc）</p>
+        
+          <p><img src="https://picbed.luochu.cc/file/webupload/ZWoo69W6.png" alt="Chill With You" title="Chill With You"></p>
+<p>这是《Chill With You存档解析》系列文章的第0篇: 总览。</p>
+<p>这一篇的内容是详细解析 Chill With You 游戏存档的加解密方法、存档位置及内容格式。</p>
+<blockquote>
+<p>这个系列的目的是帮助想要自行修改存档的玩家，不用反编译游戏文件，去阅读难以理解的代码，即可轻松修改存档。</p>
+        
+        <hr><p>本文2025-12-28首发于<a href='https://blog.luochu.cc/'>洛初 的 档案馆</a>，最后修改于2026-03-01</p><p>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</p>]]></description><category>Chill With You 存档解析</category></item><item><title>Chill With You 存档解析: (2)剧情进度数据</title><link>https://blog.luochu.cc/post/guide/chill-with-you-save/02-story-progress/</link><pubDate>Tue, 24 Feb 2026 04:43:05 +0000</pubDate><author>contact@luochu.cc (洛初)</author><guid>https://blog.luochu.cc/post/guide/chill-with-you-save/02-story-progress/</guid><description>
+<![CDATA[<h1>Chill With You 存档解析: (2)剧情进度数据</h1><p>作者：洛初（contact@luochu.cc）</p>
+        
+          <blockquote class="alert-blockquote caution">
+    <p class="alert-heading">
+      Caution
+    </p>
+    <p><p>此部分可能包含游戏内容剧透，请谨慎阅读</p></p>
+  </blockquote>
+
+<p><img src="https://picbed.luochu.cc/file/webupload/ZWoo69W6.png" alt="Chill With You" title="Chill With You"></p>
+<p>这是《Chill With You存档解析》系列文章的第1篇: 窗外景色及环境声音数据。</p>
+<p>这一篇的内容是详细解析 <code>-74616829.es3</code> 的存档内容、格式以及ID与游戏内的关联。</p>
+        
+        <hr><p>本文2026-02-24首发于<a href='https://blog.luochu.cc/'>洛初 的 档案馆</a>，最后修改于2026-03-01</p><p>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</p>]]></description><category>Chill With You 存档解析</category></item></channel></rss>

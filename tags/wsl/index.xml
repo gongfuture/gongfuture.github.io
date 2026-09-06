@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WSL on 洛初 的 档案馆</title><link>https://blog.luochu.cc/tags/wsl/</link><description>Recent content from 洛初 的 档案馆</description><generator>Hugo</generator><language>zh-CN</language><managingEditor>contact@luochu.cc (洛初)</managingEditor><webMaster>contact@luochu.cc (洛初)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Tue, 06 Jan 2026 03:18:45 +0000</lastBuildDate><atom:link href="https://blog.luochu.cc/tags/wsl/index.xml" rel="self" type="application/rss+xml"/><item><title>Github CLI在WSL中证书验证失败的问题</title><link>https://blog.luochu.cc/post/trouble/github-cli-wsl-cert-verify-fail/</link><pubDate>Tue, 06 Jan 2026 03:18:03 +0000</pubDate><author>contact@luochu.cc (洛初)</author><guid>https://blog.luochu.cc/post/trouble/github-cli-wsl-cert-verify-fail/</guid><description>
+<![CDATA[<h1>Github CLI在WSL中证书验证失败的问题</h1><p>作者：洛初（contact@luochu.cc）</p>
+        
+          <h2 id="问题描述">
+<a class="header-anchor" href="#%e9%97%ae%e9%a2%98%e6%8f%8f%e8%bf%b0"></a>
+问题描述
+</h2><p>在 WSL 中使用 Github CLI 时，不论哪种登陆方式都登陆不了，报错，类似</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">error validating token: Get <span class="s2">&#34;https://api.github.com/&#34;</span>: tls: failed to verify certificate: x509: certificate signed by unknown authority
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="排查过程">
+<a class="header-anchor" href="#%e6%8e%92%e6%9f%a5%e8%bf%87%e7%a8%8b"></a>
+排查过程
+</h2><p>搜索对应报错，发现是证书问题</p>
+<p>排查发现，Windows 端与 Github 的通信被 <a href="https://www.dogfight360.com/blog/18682/">Steamcommunity 302</a> 代理了<br>
+使用的证书是 <code>steamcommunity.crt</code>，而这个证书在 WSL 里不存在，所以不能过 SSL 验证</p>
+        
+        <hr><p>本文2026-01-06首发于<a href='https://blog.luochu.cc/'>洛初 的 档案馆</a>，最后修改于2026-01-06</p><p>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</p>]]></description><category>疑难杂症合集</category></item><item><title>WSLg调用Microsoft Remote Desktop导致抢夺窗口焦点</title><link>https://blog.luochu.cc/post/trouble/wslg-mstsc-steal-focus/</link><pubDate>Sun, 29 Jun 2025 01:38:56 +0000</pubDate><author>contact@luochu.cc (洛初)</author><guid>https://blog.luochu.cc/post/trouble/wslg-mstsc-steal-focus/</guid><description>
+<![CDATA[<h1>WSLg调用Microsoft Remote Desktop导致抢夺窗口焦点</h1><p>作者：洛初（contact@luochu.cc）</p>
+        
+          <h2 id="起因">
+<a class="header-anchor" href="#%e8%b5%b7%e5%9b%a0"></a>
+起因
+</h2><p>装好新电脑之后，用了一阵子老是发现有东西在抢我的屏幕焦点，特别是在玩游戏的时候更容易发现，遂进行了一番捯饬</p>
+<h2 id="搜素过程">
+<a class="header-anchor" href="#%e6%90%9c%e7%b4%a0%e8%bf%87%e7%a8%8b"></a>
+搜素过程
+</h2><p>首先使用一个窗口焦点监控程序，找一下到底是什么在抢我的鼠标</p>
+        
+        <hr><p>本文2025-06-29首发于<a href='https://blog.luochu.cc/'>洛初 的 档案馆</a>，最后修改于2025-06-29</p><p>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</p>]]></description><category>疑难杂症合集</category></item></channel></rss>

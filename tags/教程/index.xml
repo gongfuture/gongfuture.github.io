@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>教程 on 洛初 的 档案馆</title><link>https://blog.luochu.cc/tags/%E6%95%99%E7%A8%8B/</link><description>Recent content from 洛初 的 档案馆</description><generator>Hugo</generator><language>zh-CN</language><managingEditor>contact@luochu.cc (洛初)</managingEditor><webMaster>contact@luochu.cc (洛初)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Thu, 22 May 2025 17:19:31 +0800</lastBuildDate><atom:link href="https://blog.luochu.cc/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo搭建系列教程 1.安装 Hugo</title><link>https://blog.luochu.cc/post/guide/hugo-site/part1/</link><pubDate>Tue, 22 Apr 2025 15:22:02 +0800</pubDate><author>contact@luochu.cc (洛初)</author><guid>https://blog.luochu.cc/post/guide/hugo-site/part1/</guid><description>
+<![CDATA[<h1>Hugo搭建系列教程 1.安装 Hugo</h1><p>作者：洛初（contact@luochu.cc）</p>
+        
+          <h2 id="安装hugo">
+<a class="header-anchor" href="#%e5%ae%89%e8%a3%85hugo"></a>
+安装Hugo
+</h2><p>我的部署基本参照官方文档<br>
+<a href="https://gohugo.io/getting-started/quick-start/" title="Hugo Quick Start" target="_blank">Hugo Quick Start</a></p>
+<p>请尽量以英文文档为准，<a href="https://hugo.opendocs.io/getting-started/">中文文档</a>更新进度有些滞后，在现在都有浏览器翻译的情况下，还是建议看英文文档<br>
+以下安装环境为：本地开发环境Windows，远程部署GitHub Pages，之后不再赘述</p>
+        
+        <hr><p>本文2025-04-22首发于<a href='https://blog.luochu.cc/'>洛初 的 档案馆</a>，最后修改于2025-05-22</p><p>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</p>]]></description><category>Hugo搭建系列教程</category></item><item><title>Hugo搭建系列教程 0.前言</title><link>https://blog.luochu.cc/post/guide/hugo-site/part0/</link><pubDate>Sat, 19 Apr 2025 18:24:15 +0800</pubDate><author>contact@luochu.cc (洛初)</author><guid>https://blog.luochu.cc/post/guide/hugo-site/part0/</guid><description>
+<![CDATA[<h1>Hugo搭建系列教程 0.前言</h1><p>作者：洛初（contact@luochu.cc）</p>
+        
+          <h2 id="前言碎碎念">
+<a class="header-anchor" href="#%e5%89%8d%e8%a8%80%e7%a2%8e%e7%a2%8e%e5%bf%b5"></a>
+前言(碎碎念)
+</h2><p>TL;DR: 不想看碎碎念直接跳转<a href="/post/guide/hugo-site/part0/#%e6%ad%a3%e6%96%87">正文</a>部分</p>
+<h3 id="为什么选择hugo">
+<a class="header-anchor" href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%80%89%e6%8b%a9hugo"></a>
+为什么选择Hugo
+</h3><p>在此之前，也看过很多博客网站的介绍，WordPress、Jekyll、Hexo、Halo等等</p>
+        
+        <hr><p>本文2025-04-19首发于<a href='https://blog.luochu.cc/'>洛初 的 档案馆</a>，最后修改于2025-04-22</p><p>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</p>]]></description><category>Hugo搭建系列教程</category></item></channel></rss>
